@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> SURVEY FORM</title>
+    <meta name="viewport" content="width-device-width, initial-scaled-1, user-scalable-no" />
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="heading">
+        <h1 id="head"> PEXCEL SERVICES SURVEY FORM</h1>
+<marquee  behavior="scroll" direction="right" scrollamount="9"><h2 id="subheading"><i> Thank you for taking time to help us improve our platform</i></h2></marquee>
+    </div>
+    <form>
+        <div id="content1">
+            <label>Name</label> <br><br>
+            <input type="name" name="name"  placeholder="Enter your name" class="box" required>   <br><br>
+            <label>Email</label> <br><br>
+            <input type="Email" name="Email" required="Email" placeholder="Enter your email" class="box" required>   <br><br>
+            <label>Phone number</label> <br><br>
+            <input type="phonenumber"  name="phonenumber" required="number" placeholder="Enter your phone number" class="box" required> <br><br>
+            <label>Age (optional)</label> <br><br>
+            <input type="age" name="age" required="age" placeholder="Enter your age" class="box" required><br><br>
+            <label>Which option best describes your current role?</label><br><br>
+        </div>
+            <div id="optionl">
+            <select>
+                <option name="Select your Role">Select your Role</option>
+                <option name="Students">Students</option>
+                <option name="Full Time job">Full Time job</option>
+                <option name="Full Time Learner">Full Time Learner</option>
+                <option name="Prefer Not to say">Prefer Not to say</option>
+                <option name="Others">Others</option>
+
+            </select>
+            
+        </div><br>
+        <label id="head1">Would you recommend Pexcel services to a friend</label><br> <br>
+        <input type="radio" name="radio" class="larger" >&nbsp&nbsp&nbspDefinitely<br> <br>
+        <input type="radio" name="radio" class="larger" >&nbsp&nbsp&nbspMaybe<br> <br>
+        <input type="radio" name="radio" class="larger" >&nbsp&nbsp&nbspNot sure<br> <br>
+
+        <label id="head1">What is your prefer plan</label> <br><br>
+        <input type="radio" name="radio" class="larger" required>&nbsp&nbsp&nbspFree Plan<br> <br>
+        <input type="radio" name="radio" class="larger" required>&nbsp&nbsp&nbspReseller Plan<br> <br>
+    <label> what is your favourite plans at pexcel services </label>
+        
+    <div id="option2">
+        <select>
+            <option name="Select your prefer services">Select your prefer services</option>
+            <option value="Data">Data</option>
+            <option value="Airtime">Airtime</option>
+            <option value="Electricity Bill">Electricity Bill</option>
+            <option value="CableTV subscription">CableTV Subscription</option>
+
+        </select> 
+    </div>                               
+        <br><br>
+    
+    <label id="head2">What would you like to see improved? (Check all that apply )</label><br>
+        <div id="content2">
+        <input type="checkbox" name="checkbox" class="larger" checked><label>&nbsp&nbsp&nbspData</label><br><br>
+        <input type="checkbox" name="checkbox" class="larger" checked><label>&nbsp&nbsp&nbspAirtime</label><br><br>
+        <input type="checkbox" name="checkbox" class="larger" checked><label>&nbsp&nbsp&nbspElectricity Bill</label><br><br>
+        <input type="checkbox" name="checkbox" class="larger" checked><label>&nbsp&nbsp&nbspCableTV Subscription</label><br><br>
+        <input type="checkbox" name="checkbox" class="larger" checked><label>&nbsp&nbsp&nbspFree Plan</label><br><br>
+        <input type="checkbox" name="checkbox" class="larger" checked><label>&nbsp&nbsp&nbspReseller Plan</label><br><br>
+        </div>
+        <label id="head2">Any comments or suggestion?</label> <br><br>
+        <textarea placeholder="Enter Your Comment Here..."></textarea><br>
+        <button><h3>Submit</h3></button>
+    </form>    
+</body>
+</html>
