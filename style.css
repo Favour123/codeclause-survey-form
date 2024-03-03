@@ -3,7 +3,7 @@
     padding: 0;
 }
 body{
-    background: url(file:///C:/Users/USER/Documents/OLOLADE%20FILES/survey%20test/istockphoto-856862782-1024x1024.jpg);
+    background: url(back.jpg);
     background-size: cover;
     background-attachment: fixed;
     background-color: rgb(57, 179, 250, 0.7);
@@ -16,7 +16,7 @@ body{
 text-align:center ;
 width: 100%;
 margin: auto;
-margin-top: 100px; 
+margin-top: 50px; 
 } 
 #head{
     font-size: 1.8em;
@@ -25,24 +25,22 @@ margin-top: 100px;
     font-size: 18px;
     margin-top: 10px;
 }
-#content1{
-    width: 90%;
-    margin: auto;
+.center{
+        padding: 5px 15px;
 }
+
 form{
     background-color: rgba(0,0,0,0.7);
-    padding-top: 34px;
-    display: flex;
-    align-items: center;
-     justify-content: center;
+    padding: 34px 20px ;
      width: 54%;
      border-radius: 5px;
      margin: auto;
-     margin-top: 10px;
+     margin-top: 5px;
+     margin-bottom: 5px;
      padding-bottom: 60px;
 }
 form .box{
-    width: 98.5%; 
+    width: 90%; 
     height: 2.8em;
     position:relative;
     bottom: 10px;
@@ -50,7 +48,7 @@ form .box{
     border-radius: 5px;
 }
 #optionl select{
-    width:98.5%;
+    width:90%;
     height: 2.7em;
     position: relative ;
     bottom: 10px;
@@ -58,7 +56,7 @@ form .box{
     border: 0;
 }
 #option2 select{
-    width:98.5%;
+    width:90%;
     height: 2.7em;
     position: relative ;
     top: 10px;
@@ -68,28 +66,37 @@ form .box{
 #head2{
     margin-top: 10px;
 }
-#head2 textarea{
-    width: 98.5%;
+input{
+    outline: none;
+}
+textarea{
+    width: 90%;
     height: 125px;
-    position: relative;
-    bottom: 17px;
+    font-size: 1em;
+    padding: 6px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 0;
+    outline: none;
 }
 button{
-    width: 98.5%;
+    width: 90%;
     height: 3em;
     position: relative;
     top: 11px;
     background-color: rgba(18, 219, 78);
     border: none;
-    color: rgb(255, 255,2555);
+    color: rgb(255, 255,255,0.6);
     margin-bottom: 10px;
     cursor: pointer;
 }
-textarea::placeholder{
-    font-size: 1.4em;
-    position: relative;
-  
+button:hover{
+    background-color:rgb(18, 219, 78,0.7) ;
 }
+textarea::placeholder{
+    position: relative;
+    padding: 6px;
+}
+
 input::placeholder{
     font-size: 1.1em;
     position: relative;
@@ -98,7 +105,7 @@ input::placeholder{
     font-weight: 500;
 
 } 
-input.larger{
+input.samller, input.larger{
     width:20px ;
     height: 20px;
 }
@@ -106,5 +113,23 @@ input.larger{
     form{
           width: 100%;
           margin: auto;
+          padding:0px;
+          margin-right: 5px;
     }
+    .center{
+        padding-left: 20px;
+}
+#head{
+    font-size: 1.4em;
+}
+#subheading{
+    font-size: 14px;
+    margin-top: 6px;
+}
+label{
+    font-size: 0.9em;
+}
+#content1{
+    font-size: 0.9em;
+}
 }
